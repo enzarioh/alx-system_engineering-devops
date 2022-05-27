@@ -50,4 +50,12 @@ script :$ echo $'#!/bin/bash\nIn -s /bin/ls _ls_'>13-symbolic_link
 14.copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 Script : $ echo $'#!/bin/bash\ncp -nu *.html ..'>14-copy_html
 
+15.moves all files beginning with an uppercase letter to the directory /tmp/u.
+script : 
+
+16.
+
+17.creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+Script : $ echo $'#!/bin/bash\nmkdir -p welcome/to/school'>102-tree
+
 
